@@ -2,7 +2,7 @@
 This is the PyTorch code of our AAAI 2023 paper - Leveraging Sub-Class Discrimination for Compositional Zero-shot Learning.
 We provide the training and testing code implementation of our method on both UT-Zappos and C-GQA dataset.
 <p align="center">
-  <img src="img.png" />
+  <img src="fig3.png" />
 </p>
 
 ## Setup 
