@@ -34,8 +34,7 @@ If you find this code helpful, please cite
   title={Leveraging Sub-Class Discrimination for Compositional Zero-shot Learning},
   author={Xiaoming, Hu and Zilei, Wang},
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-  year={2023},
-  organization={IEEE}
+  year={2023}
 }
 ```
 ## Acknowledgment
