@@ -1,0 +1,32 @@
+MODEL:
+  img_emb_dim: 1024
+  pair_emb_dim: 512
+  img_emb_drop: 0.35
+
+  wordemb_compose: 'linear'
+  wordemb_compose_dropout: 0.1
+
+  lambda_attn: 10.0
+  attn_normalized: True
+
+  classifier: 'cosine'
+  cosine_cls_temp: 0.05
+
+  w_loss_pair: 1.0
+  w_loss_att_base: 1.0
+  w_loss_obj_base: 1.0
+  w_loss_ao_pair: 0.5
+  w_loss_att_pair: 0.5
+  w_loss_obj_pair: 0.5
+  w_loss_contra_att: 1.0
+  w_loss_contra_obj: 1.0
+  
+
+TRAIN:
+  lr: 0.0002
+  start_epoch_validate: 1
+  max_epoch: 100
+  final_max_epoch: 100
+  decay_strategy: 'milestone' 
+  decay_factor: 0.5
+  lr_decay_milestones: [50]
